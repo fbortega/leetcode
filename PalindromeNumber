@@ -1,4 +1,6 @@
+# Attempted Solution
 # 8:00
+# 16/57 Test Cases passed
 
 
 /**
@@ -15,3 +17,7 @@ var isPalindrome = function(x) {
         return false;
     }
 };
+
+
+# Question Asked:
+# How to split number into array
