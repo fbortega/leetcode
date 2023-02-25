@@ -1,0 +1,17 @@
+# 8:00
+
+
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+var isPalindrome = function(x) {
+   
+    const reversedNum = String(x).split('').reverse().map(Number).join('')
+
+    if (x == reversedNum) {
+        return true;
+    } else {
+        return false;
+    }
+};
